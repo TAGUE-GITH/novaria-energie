@@ -1,0 +1,13 @@
+﻿CodeBatiment;NomBatiment;TypeBatiment;SurfaceM2;ConsommationKWh;CoutEuro;EmissionsKgCO2;KWhParM2;PartPct
+BAT-HLM-SE;Résidence sociale des Horizons;HLM;17500,0;11545308,2;1905406,7;812993,0;659,7;18,8
+BAT-HLM-N;Résidence sociale du Parc;HLM;14200,0;9360344,6;1545886,6;658903,1;659,2;15,3
+BAT-PISC;Piscine municipale NeoWave;Piscine;7800,0;6789642,6;1262551,8;447896,0;870,5;11,1
+BAT-ATELIER;Ateliers municipaux;Services techniques;11200,0;6575334,1;1180677,1;964240,9;587,1;10,7
+BAT-STADE;Stade municipal;Équipement sportif;9800,0;5573378,6;921240,9;921787,6;568,7;9,1
+BAT-MAIRIE;Hôtel de ville;Administration;8500,0;4452819,8;702591,7;320427,1;523,9;7,3
+BAT-COLLECTE;Centre de collecte Ouest;Déchets;6700,0;4177304,5;718213,4;288027,7;623,5;6,8
+BAT-MEDIA;Médiathèque centrale;Médiathèque;6200,0;3362841,7;538581,7;240295,5;542,4;5,5
+BAT-GYM-NE;Gymnase Nord-Est;Gymnase;5200,0;3105586,1;526437,3;496418,8;597,2;5,1
+BAT-ECO-E;Groupe scolaire de l'Est;École;5900,0;2751503,0;396487,4;206012,4;466,4;4,5
+BAT-ECO-N;École primaire du Nord;École;4100,0;1892420,7;302163,6;326969,4;461,6;3,1
+BAT-ECO-SO;École des Jardins;École;3600,0;1664366,7;265585,9;287782,3;462,3;2,7

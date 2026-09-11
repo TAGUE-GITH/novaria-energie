@@ -1,0 +1,13 @@
+﻿CodeBatiment;DateAudit;ClasseEnergetique;ConsommationReferenceKWhM2;Priorite;Recommandation;CoutEstimeEuro;StatutChiffrage;OrdrePriorite;IdBatiment
+BAT-MAIRIE;2024-03-18;D;182,0;Haute;Isolation des combles;145000,0;Chiffré;3;1
+BAT-MEDIA;2024-04-12;B;88,0;Faible;Optimiser la programmation du chauffage;12000,0;Chiffré;1;2
+BAT-ECO-N;2024-05-15;E;248,0;Haute;Remplacer les menuiseries;210000,0;Chiffré;3;3
+BAT-GYM-NE;2024-06-07;C;134,0;Moyenne;Installer une régulation par zone;48000,0;Chiffré;2;4
+BAT-ECO-E;2024-09-16;C;121,0;Moyenne;Calorifuger les réseaux;28000,0;Chiffré;2;5
+BAT-HLM-SE;2024-10-21;F;318,0;Urgente;Rénovation globale de l’enveloppe;920000,0;Chiffré;4;6
+BAT-PISC;2025-01-27;D;205,0;Haute;Récupération de chaleur sur eaux grises;310000,0;Chiffré;3;7
+BAT-STADE;2025-02-14;E;267,0;Haute;Remplacer la chaudière;185000,0;Chiffré;3;8
+BAT-ECO-SO;2025-03-31;D;194,0;Haute;Isolation des murs;240000,0;Chiffré;3;9
+BAT-ATELIER;2025-05-09;E;276,0;Moyenne;Détection automatique des ouvrants;;À chiffrer;2;10
+BAT-COLLECTE;2025-06-20;B;91,0;Faible;Suivi mensuel des consommations;6500,0;Chiffré;1;11
+BAT-HLM-N;2025-09-08;C;146,0;Moyenne;Équilibrage du réseau de chauffage;72000,0;Chiffré;2;12

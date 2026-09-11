@@ -1,0 +1,5 @@
+﻿IdTypeEnergie;CodeEnergie;LibelleEnergie;EstRenouvelable
+1;ELEC;Électricité;False
+2;GAZ;Gaz naturel;False
+3;RCU;Réseau de chaleur urbain;True
+4;SOLAIRE;Production photovoltaïque;True

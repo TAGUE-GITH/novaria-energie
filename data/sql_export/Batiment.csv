@@ -1,0 +1,13 @@
+IdBatiment,CodeBatiment,NomBatiment,TypeBatiment,IdQuartier,SurfaceM2,AnneeConstruction,NbOccupantsMoyen,EstRenove,DateMiseEnService
+1,BAT-MAIRIE,Hôtel de ville,Administration,1,8500.0,1895,420,True,1895-06-01
+2,BAT-MEDIA,Médiathèque centrale,Médiathèque,1,6200.0,2001,700,True,2001-09-15
+3,BAT-ECO-N,École primaire du Nord,École,2,4100.0,1974,380,False,1974-09-01
+4,BAT-GYM-NE,Gymnase Nord-Est,Gymnase,3,5200.0,1982,240,True,1982-01-10
+5,BAT-ECO-E,Groupe scolaire de l'Est,École,4,5900.0,1998,610,True,1998-09-01
+6,BAT-HLM-SE,Résidence sociale des Horizons,HLM,5,17500.0,1968,980,False,1968-03-01
+7,BAT-PISC,Piscine municipale NeoWave,Piscine,6,7800.0,1992,850,True,1992-07-01
+8,BAT-STADE,Stade municipal,Équipement sportif,6,9800.0,1987,520,False,1987-05-12
+9,BAT-ECO-SO,École des Jardins,École,7,3600.0,1959,290,True,1959-09-01
+10,BAT-ATELIER,Ateliers municipaux,Services techniques,8,11200.0,1978,310,False,1978-04-01
+11,BAT-COLLECTE,Centre de collecte Ouest,Déchets,8,6700.0,2008,180,True,2008-11-20
+12,BAT-HLM-N,Résidence sociale du Parc,HLM,2,14200.0,1972,760,True,1972-06-01

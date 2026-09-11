@@ -1,0 +1,5 @@
+IdTypeEnergie,CodeEnergie,LibelleEnergie,Unite,PrixUnitaireEuro,EmissionCO2KgParKWh,EstRenouvelable
+1,ELEC,Électricité,kWh,0.2516,0.052,False
+2,GAZ,Gaz naturel,kWh,0.1184,0.227,False
+3,RCU,Réseau de chaleur urbain,kWh,0.0965,0.085,True
+4,SOLAIRE,Production photovoltaïque,kWh,0.0,0.0,True

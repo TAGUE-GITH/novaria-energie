@@ -1,0 +1,9 @@
+IdQuartier,CodeQuartier,NomQuartier,Population,Latitude,Longitude
+1,CTR,Centre-ville,32000,45.8336,1.2611
+2,NOR,Quartier Nord,28000,45.8571,1.2582
+3,NES,Nord-Est,35000,45.8532,1.2914
+4,EST,Quartier Est,31000,45.832,1.3031
+5,SES,Sud-Est,37000,45.8079,1.2935
+6,SUD,Quartier Sud,29000,45.8021,1.2599
+7,SOU,Sud-Ouest,26000,45.8148,1.2267
+8,OUE,Quartier Ouest,32000,45.8393,1.2204

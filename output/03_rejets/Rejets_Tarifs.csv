@@ -1,0 +1,3 @@
+﻿CodeEnergie;MoisTarif;PrixKWhEuro;AbonnementMensuelEuro;Fournisseur;SourceTarif;DateEffet;RaisonRejet
+RCU;2026-07-01;-0,1072;37,0;Novaria Chaleur;Contrat municipal;2026-07-01;Prix négatif
+ELEC;2026-01-01;0,2284;19,8;EnerNova;Grille fournisseur;2026-01-01;Doublon énergie + date d'effet

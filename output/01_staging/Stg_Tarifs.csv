@@ -1,0 +1,20 @@
+﻿CodeEnergie;MoisTarif;PrixKWhEuro;AbonnementMensuelEuro;Fournisseur;SourceTarif
+ELEC;2024-01-01;0,2516;18,40;EnerNova;Grille fournisseur
+GAZ;2024-01-01;0,1184;24,90;Gazelia;Grille fournisseur
+RCU;2024-01-01;0,0965;35,00;Novaria Chaleur;Contrat municipal
+ELEC;2024-07-01;0,2449;18,40;EnerNova;Grille fournisseur
+GAZ;2024-07-01;0,1128;24,90;Gazelia;Grille fournisseur
+RCU;2024-07-01;0,0982;35,00;Novaria Chaleur;Contrat municipal
+ELEC;2025-01-01;0,2398;19,10;EnerNova;Grille fournisseur
+GAZ;2025-01-01;0,1096;25,50;Gazelia;Grille fournisseur
+RCU;2025-01-01;0,1014;36,20;Novaria Chaleur;Contrat municipal
+ELEC;juillet 2025;0.2317;19,10 €;EnerNova;Grille fournisseur
+GAZ;2025-07-01;0,1062;25,50;Gazelia;Grille fournisseur
+RCU;2025-07-01;0,1031;36,20;Novaria Chaleur;Contrat municipal
+ELEC;2026-01-01;0,2284;19,80;EnerNova;Grille fournisseur
+GAZ;2026-01-01;0,1048;26,10;Gazelia;Grille fournisseur
+RCU;2026-01-01;0,1056;37,00;Novaria Chaleur;Contrat municipal
+ELEC;2026-01-01;0,2284;19,80;EnerNova;Grille fournisseur
+GAZ ;2026-07-01;0,1029;26,10;Gazelia;Grille fournisseur
+RCU;2026-07-01;-0,1072;37,00;Novaria Chaleur;Contrat municipal
+SOLAIRE;2026-01-01;0;;Autoproduction;Estimation interne

@@ -1,0 +1,9 @@
+﻿IdQuartier;CodeQuartier;NomQuartier;Population
+1;CTR;Centre-ville;32000
+2;NOR;Quartier Nord;28000
+3;NES;Nord-Est;35000
+4;EST;Quartier Est;31000
+5;SES;Sud-Est;37000
+6;SUD;Quartier Sud;29000
+7;SOU;Sud-Ouest;26000
+8;OUE;Quartier Ouest;32000

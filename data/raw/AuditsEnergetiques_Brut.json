@@ -1,0 +1,145 @@
+[
+  {
+    "codeBatiment": "BAT-MAIRIE",
+    "dateAudit": "2024-03-18",
+    "classeEnergetique": "D",
+    "consommationReferenceKWhM2": 182,
+    "audit": {
+      "priorite": "Haute",
+      "recommandation": "Isolation des combles",
+      "coutEstimeEuro": 145000
+    }
+  },
+  {
+    "codeBatiment": "BAT-MEDIA",
+    "dateAudit": "2024-04-12",
+    "classeEnergetique": "B",
+    "consommationReferenceKWhM2": 88,
+    "audit": {
+      "priorite": "Faible",
+      "recommandation": "Optimiser la programmation du chauffage",
+      "coutEstimeEuro": 12000
+    }
+  },
+  {
+    "codeBatiment": "BAT-ECO-N",
+    "dateAudit": "15/05/2024",
+    "classeEnergetique": "E",
+    "consommationReferenceKWhM2": 248,
+    "audit": {
+      "priorite": "Haute",
+      "recommandation": "Remplacer les menuiseries",
+      "coutEstimeEuro": 210000
+    }
+  },
+  {
+    "codeBatiment": "BAT-GYM-NE",
+    "dateAudit": "2024-06-07",
+    "classeEnergetique": "C",
+    "consommationReferenceKWhM2": "134 kWh/m²",
+    "audit": {
+      "priorite": "Moyenne",
+      "recommandation": "Installer une régulation par zone",
+      "coutEstimeEuro": 48000
+    }
+  },
+  {
+    "codeBatiment": "BAT-ECO-E",
+    "dateAudit": "2024-09-16",
+    "classeEnergetique": "C",
+    "consommationReferenceKWhM2": 121,
+    "audit": {
+      "priorite": "Moyenne",
+      "recommandation": "Calorifuger les réseaux",
+      "coutEstimeEuro": 28000
+    }
+  },
+  {
+    "codeBatiment": "BAT-HLM-SE",
+    "dateAudit": "2024-10-21",
+    "classeEnergetique": "F",
+    "consommationReferenceKWhM2": 318,
+    "audit": {
+      "priorite": "Urgente",
+      "recommandation": "Rénovation globale de l’enveloppe",
+      "coutEstimeEuro": 920000
+    }
+  },
+  {
+    "codeBatiment": "BAT-PISC",
+    "dateAudit": "2025-01-27",
+    "classeEnergetique": "D",
+    "consommationReferenceKWhM2": 205,
+    "audit": {
+      "priorite": "Haute",
+      "recommandation": "Récupération de chaleur sur eaux grises",
+      "coutEstimeEuro": 310000
+    }
+  },
+  {
+    "codeBatiment": "BAT-STADE",
+    "dateAudit": "2025-02-14",
+    "classeEnergetique": "E",
+    "consommationReferenceKWhM2": 267,
+    "audit": {
+      "priorite": "Haute",
+      "recommandation": "Remplacer la chaudière",
+      "coutEstimeEuro": 185000
+    }
+  },
+  {
+    "codeBatiment": "BAT-ECO-SO ",
+    "dateAudit": "2025-03-31",
+    "classeEnergetique": "D",
+    "consommationReferenceKWhM2": 194,
+    "audit": {
+      "priorite": "Haute",
+      "recommandation": "Isolation des murs",
+      "coutEstimeEuro": 240000
+    }
+  },
+  {
+    "codeBatiment": "BAT-ATELIER",
+    "dateAudit": "2025-05-09",
+    "classeEnergetique": "E",
+    "consommationReferenceKWhM2": 276,
+    "audit": {
+      "priorite": "Moyenne",
+      "recommandation": "Détection automatique des ouvrants",
+      "coutEstimeEuro": null
+    }
+  },
+  {
+    "codeBatiment": "BAT-COLLECTE",
+    "dateAudit": "2025-06-20",
+    "classeEnergetique": "B",
+    "consommationReferenceKWhM2": 91,
+    "audit": {
+      "priorite": "Faible",
+      "recommandation": "Suivi mensuel des consommations",
+      "coutEstimeEuro": 6500
+    }
+  },
+  {
+    "codeBatiment": "BAT-HLM-N",
+    "dateAudit": "2025-09-08",
+    "classeEnergetique": "C",
+    "consommationReferenceKWhM2": 146,
+    "audit": {
+      "priorite": "Moyenne",
+      "recommandation": "Équilibrage du réseau de chauffage",
+      "coutEstimeEuro": 72000
+    }
+  },
+  {
+    "codeBatiment": "BAT-INCONNU",
+    "dateAudit": "2025-11-03",
+    "classeEnergetique": "G",
+    "consommationReferenceKWhM2": 402,
+    "audit": {
+      "priorite": "Urgente",
+      "recommandation": "Vérifier le référentiel bâtiment",
+      "coutEstimeEuro": 0
+    }
+  }
+]

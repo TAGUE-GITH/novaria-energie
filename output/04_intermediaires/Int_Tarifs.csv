@@ -1,0 +1,18 @@
+﻿IdTypeEnergie;CodeEnergie;DateEffet;MoisTarif;PrixKWhEuro;AbonnementMensuelEuro;Fournisseur;SourceTarif
+1;ELEC;2024-01-01;2024-01-01;0,2516;18,4;EnerNova;Grille fournisseur
+1;ELEC;2024-07-01;2024-07-01;0,2449;18,4;EnerNova;Grille fournisseur
+1;ELEC;2025-01-01;2025-01-01;0,2398;19,1;EnerNova;Grille fournisseur
+1;ELEC;2025-07-01;2025-07-01;0,2317;19,1;EnerNova;Grille fournisseur
+1;ELEC;2026-01-01;2026-01-01;0,2284;19,8;EnerNova;Grille fournisseur
+2;GAZ;2024-01-01;2024-01-01;0,1184;24,9;Gazelia;Grille fournisseur
+2;GAZ;2024-07-01;2024-07-01;0,1128;24,9;Gazelia;Grille fournisseur
+2;GAZ;2025-01-01;2025-01-01;0,1096;25,5;Gazelia;Grille fournisseur
+2;GAZ;2025-07-01;2025-07-01;0,1062;25,5;Gazelia;Grille fournisseur
+2;GAZ;2026-01-01;2026-01-01;0,1048;26,1;Gazelia;Grille fournisseur
+2;GAZ;2026-07-01;2026-07-01;0,1029;26,1;Gazelia;Grille fournisseur
+3;RCU;2024-01-01;2024-01-01;0,0965;35,0;Novaria Chaleur;Contrat municipal
+3;RCU;2024-07-01;2024-07-01;0,0982;35,0;Novaria Chaleur;Contrat municipal
+3;RCU;2025-01-01;2025-01-01;0,1014;36,2;Novaria Chaleur;Contrat municipal
+3;RCU;2025-07-01;2025-07-01;0,1031;36,2;Novaria Chaleur;Contrat municipal
+3;RCU;2026-01-01;2026-01-01;0,1056;37,0;Novaria Chaleur;Contrat municipal
+4;SOLAIRE;2026-01-01;2026-01-01;0,0;;Autoproduction;Estimation interne

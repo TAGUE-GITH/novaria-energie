@@ -1,0 +1,87 @@
+// =====================================================================
+//  Novaria - colonne calculée et mesures DAX (TP 7 et TP 8)
+//  Conseil : regrouper les mesures dans une table vide _Mesures
+// =====================================================================
+
+// ---------- Colonne calculée (table FactEnergie) : une valeur par ligne -> axe, légende, segment
+Niveau consommation =
+IF ( FactEnergie[QuantiteKWh] > 10000, "Élevée", "Normale" )
+
+// ---------- Mesures de base : se recalculent selon les filtres actifs
+// La production solaire partage la colonne QuantiteKWh : on filtre le flux
+// pour ne jamais additionner production et consommation.
+Consommation totale =
+CALCULATE ( SUM ( FactEnergie[QuantiteKWh] ), FactEnergie[TypeFlux] = "Consommation" )
+
+Production solaire =
+CALCULATE ( SUM ( FactEnergie[QuantiteKWh] ), FactEnergie[TypeFlux] = "Production" )
+
+Coût total =
+SUM ( FactEnergie[CoutEuro] )
+
+Coût recalculé =
+SUM ( FactEnergie[CoutRecalcule] )
+
+Écart coût =
+[Coût recalculé] - [Coût total]
+
+Émissions totales (kg CO2) =
+SUM ( FactEnergie[EmissionCO2Kg] )
+
+Surface analysée =
+SUMX ( VALUES ( DimBatiment[IdBatiment] ), CALCULATE ( MAX ( DimBatiment[SurfaceM2] ) ) )
+
+kWh/m² =
+DIVIDE ( [Consommation totale], [Surface analysée] )
+
+// ---------- Comparaison N-1 (DimDate marquée comme table de dates)
+// 2026 ne contient que le 1er semestre : N-1 est borné à la même période,
+// sinon S1 2026 serait comparé à l'année 2025 entière (-50 % artificiel).
+Dernière date chargée =
+CALCULATE ( MAX ( FactEnergie[DateMesure] ), REMOVEFILTERS () )
+
+Consommation N-1 =
+VAR FinComparable = EDATE ( [Dernière date chargée], -12 )
+RETURN
+    CALCULATE (
+        [Consommation totale],
+        DATEADD ( DimDate[Date], -1, YEAR ),
+        DimDate[Date] <= FinComparable
+    )
+
+Écart consommation =
+IF ( NOT ISBLANK ( [Consommation N-1] ), [Consommation totale] - [Consommation N-1] )
+
+Évolution consommation % =
+DIVIDE ( [Écart consommation], [Consommation N-1] )
+
+Couleur évolution consommation =
+SWITCH (
+    TRUE (),
+    ISBLANK ( [Évolution consommation %] ), "#6B7280",
+    [Évolution consommation %] < 0, "#16A34A",
+    [Évolution consommation %] > 0, "#DC2626",
+    "#6B7280"
+)
+
+// ---------- Classement (Top 10 dynamique : filtre visuel "N premiers" = 10 sur cette mesure)
+Rang bâtiment =
+IF (
+    HASONEVALUE ( DimBatiment[NomBatiment] ),
+    RANKX ( ALLSELECTED ( DimBatiment[NomBatiment] ), [Consommation totale], , DESC, DENSE )
+)
+
+// ---------- Qualité et traçabilité
+Faits sans météo =
+CALCULATE ( COUNTROWS ( FactEnergie ), FactEnergie[MeteoTrouvee] = FALSE () )
+
+Faits sans tarif (consommation) =
+CALCULATE (
+    COUNTROWS ( FactEnergie ),
+    FactEnergie[TarifTrouve] = FALSE (),
+    FactEnergie[TypeFlux] = "Consommation"
+)
+
+Date dernière actualisation =
+"Données actualisées le "
+    & FORMAT ( MAX ( Actualisation[DerniereActualisation] ), "dd/MM/yyyy à HH:mm" )
